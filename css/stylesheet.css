@@ -1,0 +1,52 @@
+#batman {
+    background-color: #C4C4C4;
+}
+.centerPic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#cv {
+    letter-spacing: 0.2cm;
+    color: #005677;
+    text-transform: uppercase;
+    text-align: center;
+}
+.separador {
+    background-color: #C4C4C4;
+    font-family: 'Times New Roman', Times, serif;
+}
+.spacerCv {
+letter-spacing: 0.2cm;
+color: #005677;
+text-transform: uppercase;
+}
+
+dl {
+    display: grid;
+    grid-template-columns: max-content auto;
+  }
+  
+  dt {
+    grid-column-start: 1;
+  }
+  
+  dd {
+    grid-column-start: 2;
+  }
+  
+  footer{
+    background-color: #005677;
+    color: white;
+    text-align: center;
+    display: flexbox;
+    vertical-align: middle;
+}
+
+.footerContent > img,
+.footerContent > p {
+display: inline-flexbox;
+vertical-align: middle;
+
+}
